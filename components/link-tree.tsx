@@ -14,35 +14,36 @@ import { cn } from "@/lib/utils"
 
 // Default profile data
 const defaultProfile = {
-  name: "Hayden Bleasel",
-  bio: "I'm an Australian Design Engineer living in 🇺🇸 San Francisco, California. I love creating beautiful software that delights users and reimagines the way we interact with technology.",
-  avatarUrl: "https://github.com/haydenbleasel.png",
+  name: "あなたの名前",
+  bio: "あなたの自己紹介文をここに入力してください。",
+  avatarUrl: "あなたのプロフィール画像のURL", // 例: "https://github.com/yourusername.png"
   secondaryBg: "bg-secondary",
-  verified: true,
+  verified: false, // 認証バッジを表示したい場合はtrue
 }
 
 // Default links data
 const defaultLinks = [
   {
     id: "1",
-    title: "Personal Website",
-    url: "https://www.haydenbleasel.com/",
+    title: "あなたのウェブサイト",
+    url: "https://yourwebsite.com/",
   },
   {
     id: "2",
-    title: "X / Twitter",
-    url: "https://x.com/haydenbleasel",
+    title: "Twitter/X",
+    url: "https://x.com/yourusername",
   },
   {
     id: "3",
     title: "GitHub",
-    url: "https://github.com/haydenbleasel",
+    url: "https://github.com/yourusername",
   },
   {
     id: "4",
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/haydenbleasel",
+    url: "https://www.linkedin.com/in/yourusername",
   },
+  // 必要に応じてリンクを追加・削除してください
 ]
 
 export default function LinkTree() {

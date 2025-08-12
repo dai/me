@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import LinkTree from "@/components/link-tree"
 
 export const metadata: Metadata = {
-  title: "v0.me - Your Personal Link Page",
-  description: "A customizable link sharing platform for all your important links",
+  title: "あなたの名前 - パーソナルリンクページ",
+  description: "あなたの重要なリンクをまとめたカスタマイズ可能なリンク共有プラットフォーム",
 }
 
 export default function Home() {

@@ -27,9 +27,9 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "v0.me",
-  description: "Your personal link sharing platform",
-    generator: 'v0.dev'
+  title: "あなたの名前 - リンク集",
+  description: "あなたの説明文",
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
